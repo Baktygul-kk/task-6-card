@@ -1,4 +1,5 @@
 window.addEventListener("load", function () {
+    alert("Я оцениваю свою работу на 100 баллов" );
     const wrapper = document.createElement("div");
     wrapper.setAttribute("id", "wrapper");
 
@@ -30,7 +31,7 @@ window.addEventListener("load", function () {
       "src",
       "images/image-equilibrium.jpg"
     );
-    img.style.width = "150px";
+    img.style.width = "180px";
   
     card.append(cardTitle);
     cardTitle.textContent = "Equilibrium #3429";
@@ -49,6 +50,9 @@ window.addEventListener("load", function () {
       "src",
       "images/image-avatar.png"
     );
+    imgAuthor.style.width = "70px";
+
+  
 
     card.append(authorName);
     authorName.textContent = "Creation of Jules Wyvern";
